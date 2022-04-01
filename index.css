@@ -18,7 +18,7 @@ body {
   
   .birthdayCard:hover {
     transform: perspective(2500px) rotate(5deg);
-    box-shadow: inset 100px 20px 100px rgba(0,0,0,.15), 0 10px 100px rgba(0,0,0,0.3);
+    box-shadow: inset 100px 30px 100px rgba(0,0,0,.15), 0 20px 100px rgba(0,0,0,0.3);
   }
   
   .birthdayCard:hover .cardFront {
@@ -54,7 +54,7 @@ body {
   
   .happy, .toyou {
     position: relative;
-    font-family: didot;
+    font-family: arial;
     text-align: center;
     backface-visibility: hidden;
     font-size: 30px; 
@@ -231,9 +231,12 @@ body {
   
   p {
     font-family: 'Brush Script MT', cursive;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
     color: #333;
   }
   
   .name {
-    margin-left:150px;
+    margin-top:20px;
+    margin-left:300px;
   }
